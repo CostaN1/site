@@ -1,0 +1,538 @@
+/*   
+Theme Name: Anacondaz
+Theme URI: http://anacondaz.ru
+Description: сайт группы Anacondaz
+Author: Costa
+Author URI: 
+
+*/
+
+
+body 
+{
+	/*background-image: url(img/IMG_7431_2.jpg) ;
+	background-repeat:no-repeat;
+	background-position: center 100px;*/
+	background-color: #ffffff;
+	max-height: 800px;
+    font-size: 14px; 
+}
+
+section
+{
+    margin-top: 3.6em;/* высота navbar !!!!!!! */
+}
+
+
+/* HEADER
+-----------------------------------------------*/
+
+@font-face {
+font-family: MenuFont; /* Гарнитура шрифта */
+src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
+}
+
+.logo_font
+{
+	font-family:'Comic Sans MS', cursive;
+	font-size: 32px;
+    margin-right: 60px;
+
+}
+
+.icon-bar {
+   background-color: #000000 !important;
+}
+
+
+
+
+.logo {
+    width: 6em;
+    margin-right: 1em;
+    padding-top: 2px;
+}
+
+
+@media(min-width:768px){
+    .my_container {
+        width: 691px;
+        margin: auto;
+    }
+}
+
+@media (max-width:768px){
+    .my_container .navbar-header div{
+
+    float: left;
+    margin-left: 15px;
+}}
+
+.navbar
+{
+    font-size: 1.2em;
+    font-family: MenuFont,'Comic Sans MS', cursive;
+    background-image: linear-gradient(to bottom, #aaaaaa, #ffffff);
+    text-align: center;
+    /* border-bottom: 2px solid #efefef; */
+    border: none;
+
+}
+
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #222222;
+    background-image: linear-gradient(to bottom, #999999, #ffffff) ;
+}
+
+
+.navbar-collapse
+{
+    border: none;
+}
+
+
+
+/* FOOTER 
+-----------------------------------------------*/
+
+.footer {
+
+  background-image: linear-gradient(to bottom, #ffffff, #777777);
+}
+
+.footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+
+/* LIVE.HTML
+-------------------------------------------------- */
+
+
+.img-thumbnail
+{
+	border: none;
+	padding:0;
+	border-radius: 0;
+	width: 100%;
+}
+
+.content-live
+{
+  margin-top: 20px;
+}
+
+.modal-header
+{
+  background-image: linear-gradient(to bottom, #aaaaaa, #ffffff);
+}
+
+.modal-footer
+{
+  background-image: linear-gradient(to top, #aaaaaa, #ffffff);
+}
+
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-image: linear-gradient(to bottom, #e7e7e7, #f7f7f7);
+}
+
+td, th
+{    vertical-align: middle !important;
+	text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+th {
+    font-size: 1.2em;
+}
+
+
+
+
+/* NEWS.HTML
+-------------------------------------------------- */
+
+
+.news
+{
+  background-image: url(img/fon.jpg); 
+}
+
+
+.panel-main
+{ 
+  margin: 20px; 
+  text-align: justify;
+  font-family:'Comic Sans MS', cursive !important;
+}
+
+.panel-heading
+{
+   background-image: linear-gradient(to bottom, #999999, #ffffff);
+}
+
+.panel-title
+{
+   font-family:'Comic Sans MS', cursive !important;
+   font-size: 17px;
+}
+
+.news-date
+{
+    font-size: 14px;
+}
+
+
+.main-row
+{
+  margin-left: 8%;
+  margin-right: 8%; 
+  margin-bottom: 20px;
+}
+
+.news-row
+{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 20px;
+}
+
+.img_main_news
+{
+  width: auto;
+  height: 250px;
+  margin: 7px;
+  float:left;
+} 
+
+.img_news
+{
+  width: auto;
+  height: 165px;
+}
+
+
+.main_news
+{
+  float:left;
+}
+
+
+
+
+/* Carousel base class */
+.carousel {
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 100%;
+  
+}
+
+.carousel-indicators .active .panel-heading {
+
+  background-image: linear-gradient(to bottom, #555555, #dddddd);
+  color: #000000;
+  
+}
+
+.carousel-indicators .active .panel-body {
+
+  background-image: linear-gradient(to bottom, #dddddd, #555555);
+  
+}
+
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+left: 45%;
+top: 20%;
+}
+
+
+
+
+
+.pagination > li > a
+{
+  background-image: linear-gradient(to top, #ffffff, #cccccc);
+  text-align: center;
+}
+
+/*
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #ffffff;
+}*/
+
+
+
+
+
+
+
+/* -------------------MUSIC.HTML-------------*/
+
+
+.music_thumbnail {
+    margin-top: 1em;
+    border: none;
+}
+
+
+
+.thumbnail {
+    border: none;
+
+}
+
+h3 {
+    font-family: 'Comic Sans MS', cursive !important;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+    font-family: 'Comic Sans MS', cursive !important;
+}
+
+.caption {
+    padding: 9px 0 !important;
+}
+
+.music_container {
+    margin: auto;
+}
+
+.music
+{
+  margin-top: 80px;
+}
+
+
+/* -------------------start.html-------------*/
+
+.start_bg {
+    /* width: 150%; */
+    position: fixed;
+
+    /* width: 200%; */
+    /* height: 150%; */
+    /* left: -50%; */
+}
+
+.start_img {
+    max-width: 100%;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.start_logo {
+    max-width: 18%;
+    position: fixed;
+    top: 7%;
+    left: 37.5%;
+}
+
+.start_wrap {
+    font-size: 2em;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.start_enter_link {
+      color: #000000;
+}
+
+.start_enter_link:hover {
+    color: #ffd403;
+    text-decoration: none;
+
+}
+
+.start_enter_block {
+    margin: 0;
+    position: fixed;
+    /* right: 10%; */
+    top: 88%;
+    left: 70%;
+    padding:  0;
+
+    background-image: linear-gradient(to bottom, #aaaaaa, #ffffff);
+}
+
+
+
+
+/* -------------------MUSIC.HTML-------------*/
+
+
+.music_thumbnail {
+    margin-top: 1em;
+    border: none;
+}
+
+
+
+.thumbnail {
+    border: none;
+
+}
+
+h3 {
+    font-family: 'Comic Sans MS', cursive !important;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+    font-family: 'Comic Sans MS', cursive !important;
+}
+
+.caption {
+    padding: 9px 0 !important;
+}
+
+.music_container {
+    margin: auto;
+}
+
+
+
+/* SONGs.HTML
+-------------------------------------------------- */
+
+.songs_wrapper {
+    margin-top: 60px;
+
+}
+
+.songs_tab {
+
+}
+
+.songs_left_block{
+    border-right: solid #AAAAAA;
+    height: 703px;
+    /* vertical-align: middle; */
+    width: 32%;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.songs_left_block ul li{
+
+    padding: 5px 0 5px 10px;
+    border: solid 0 0 1px 0 black;
+    
+
+    border-bottom: solid 1px #AAAAAA;
+    list-style-type: none;
+}
+
+.songs_last_album {
+    border-bottom: none !important;
+}
+
+.songs_left_block ul {
+    float: right;
+    margin-left: 0; 
+    padding-left: 0;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.songs_left_block ul .active {
+    
+    
+    background: #000000;
+}
+
+
+
+
+.songs_right_block {
+    font-family: 'Comic Sans MS', cursive;
+    width: 68%;
+    /* margin-left: 244px; */
+    /* width: 691px; */
+    /* margin: auto; */
+    vertical-align: top;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.songs_right_block div{
+    margin: auto;
+    width: 84%;
+    height: 50;
+}
+
+.songs_right_block div div h1,h6{
+    font-family: 'Comic Sans MS', cursive;
+
+}
+
+.songs_right_block div div h6{
+   font-size:0.7em;  
+}
+.songs_right_block div div h1{
+   font-size:1.5em;  
+   /* padding-top: 0px; */
+   margin-top: 0px;
+}
+.songs_right_block div div ol{
+   margin-left: 10px;
+}
+.songs_left_block ul li a p{
+    margin:0 10px 0 10px;
+    display:inline-block;
+    color: black;
+    font-size: 1.4em;
+}
+
+.songs_left_block ul li.active a p{
+    color:#FFFFFF !important;
+}
